@@ -18,7 +18,7 @@ function App() {
             <Route path="/books" element={<Books />} />
             <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<Contacts />} />
-
+          </Route>
         </Routes>
       </BrowserRouter>
 
