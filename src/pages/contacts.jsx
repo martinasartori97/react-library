@@ -1,4 +1,4 @@
-export default function contacts() {
+export default function Contacts() {
     return (
         <>
 

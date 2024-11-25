@@ -1,4 +1,4 @@
-export default function books() {
+export default function Books() {
     return (
         <>
 

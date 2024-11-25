@@ -1,24 +1,24 @@
-import { browserRouter, routes, route } from "react-router-dom"
-import home from "./pages/home"
-import books from "./pages/books"
-import contacts from "./pages/contacts"
-import about from "./pages/about"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
+import Books from "./pages/Books"
+import About from "./pages/About"
+import Contacts from "./pages/Contacts"
 
 function App() {
 
   return (
     <>
-      <browserRouter>
+      <BrowserRouter>
 
 
-        <routes>
-          <route path="/" element={<home />} />
-          <route path="/books" element={<books />} />
-          <route path="/contacts" element={<contacs />} />
-          <route path="/about" element={<about />} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/books" element={<Books />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contacts" element={<Contacts />} />
 
-        </routes>
-      </browserRouter>
+        </Routes>
+      </BrowserRouter>
 
 
 
